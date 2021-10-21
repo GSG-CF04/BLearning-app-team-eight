@@ -40,3 +40,57 @@
   justify-content: space-between;
   align-items: center;
 }
+/* Subjects */
+.subjects {
+  padding: 20px 0;
+}
+
+.subjects .title {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.subjects .subjects-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-inline: -10px;
+}
+
+.subjects .subjects-container .subject {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  width: calc((100% - 40px) / 2);
+  padding: 20px 10px;
+  margin: 10px;
+  background-color: blue;
+  position: relative;
+  background-color: #e8f3fb;
+}
+
+.subjects .subjects-container .subject img {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.subjects .subjects-container .physics {
+  background-color: #f2ddf8;
+}
+
+.subjects .subjects-container .chemistry {
+  background-color: #ffede1;
+}
+
+.subjects .subjects-container .biology {
+  background-color: #e2f2e2;
+}
