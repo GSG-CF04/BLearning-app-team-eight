@@ -40,6 +40,10 @@
   justify-content: space-between;
   align-items: center;
 }
+
+.nav-bar .container > img {
+  cursor: pointer;
+}
 /* Subjects */
 .subjects {
   padding: 20px 0;
@@ -99,7 +103,7 @@
   padding-bottom: 10px;
 }
 
-section .container > .title {
+section .container .title {
   font-weight: 600;
   font-size: 18px;
 }
@@ -116,6 +120,7 @@ section .container > .title {
   position: relative;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .trial .container .content .text h3 {
@@ -160,4 +165,112 @@ section .container > .title {
 .trial .container .content img {
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
+}
+/* Courses */
+.courses .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.courses .top a {
+  color: #222b45;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.courses .top a i {
+  display: inline-block;
+  margin-left: 7px;
+  font-size: 14px;
+}
+
+.courses .boxes-container {
+  display: flex;
+  overflow-x: auto;
+}
+
+.courses .boxes-container .box:not(:last-child) {
+  margin-right: 15px;
+}
+
+.courses .boxes-container .box .image {
+  position: relative;
+  width: fit-content;
+}
+
+.courses .boxes-container .box .image img {
+  border-radius: 10px 10px 0 0;
+  -webkit-border-radius: 10px 10px 0 0;
+  -moz-border-radius: 10px 10px 0 0;
+  -ms-border-radius: 10px 10px 0 0;
+  -o-border-radius: 10px 10px 0 0;
+}
+
+.courses .boxes-container .box .image .play-btn {
+  --size: 55px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  width: var(--size);
+  height: var(--size);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0 0 0 / 0.6);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  text-decoration: none;
+}
+
+.courses .boxes-container .box .image .play-btn i {
+  color: white;
+  font-size: 1.1rem;
+}
+
+.courses .boxes-container .box .video-desc {
+  display: flex;
+  align-items: center;
+  width: 301px;
+  margin-top: 10px;
+}
+
+.courses .boxes-container .box .video-desc .play {
+  --size: 40px;
+  width: var(--size);
+  height: var(--size);
+  border: 2px solid #8c2c8c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.courses .boxes-container .box .video-desc .txt h5 {
+  color: #222b45;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.courses .boxes-container .box .video-desc .txt p {
+  color: #8f9bb2;
+  font-size: 12px;
+  font-weight: 600;
 }
