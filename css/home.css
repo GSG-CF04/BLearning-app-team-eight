@@ -30,3 +30,13 @@
     width: 1170px;
   }
 }
+/* Navbar */
+.nav-bar {
+  padding: 20px 0;
+}
+
+.nav-bar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
