@@ -274,3 +274,55 @@ section .container .title {
   font-size: 12px;
   font-weight: 600;
 }
+/* Share */
+.share {
+  padding: 40px 0 20px 0;
+}
+
+.share .content {
+  background-color: #f2f1ff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-top: 15px;
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.share .content .txt h4 {
+  margin-bottom: 5px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.share .content .txt p {
+  font-size: 11px;
+  color: #8a96ad;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.share .content img {
+  width: 179px;
+  object-fit: cover;
+  position: relative;
+  right: -5px;
+}
+
+@media (min-width: 768px) {
+  .share .content img {
+    width: unset;
+    position: static;
+  }
+
+  .share .content .txt h4 {
+    font-size: 1.3rem;
+  }
+
+  .share .content .txt p {
+    font-size: 1rem;
+  }
+}
