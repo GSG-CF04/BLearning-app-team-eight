@@ -94,3 +94,70 @@
 .subjects .subjects-container .biology {
   background-color: #e2f2e2;
 }
+/* Trial */
+.trial {
+  padding-bottom: 10px;
+}
+
+section .container > .title {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.trial .container .content {
+  background-color: #2c2749;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding-left: 20px;
+  margin-top: 15px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.trial .container .content .text h3 {
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+.trial .container .content .text p {
+  font-size: 12px;
+  color: rgb(255 255 255 / 0.75);
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.trial .container .content .text a {
+  font-size: 12px;
+  padding: 10px 20px;
+  border-radius: 100vh;
+  -webkit-border-radius: 100vh;
+  -moz-border-radius: 100vh;
+  -ms-border-radius: 100vh;
+  -o-border-radius: 100vh;
+  color: #222b45;
+  background-color: white;
+  display: inline-block;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.trial .container .content .text a:hover {
+  background-color: #f2ddf8;
+}
+
+.trial .container .content img {
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
