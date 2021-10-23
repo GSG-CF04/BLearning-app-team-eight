@@ -260,6 +260,7 @@ section .container .title {
   -o-border-radius: 50%;
   text-decoration: none;
   margin-right: 15px;
+  color: #8c2c8c;
 }
 
 .courses .boxes-container .box .video-desc .txt h5 {
